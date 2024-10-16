@@ -3,8 +3,6 @@ const errorMessage = document.querySelector(".error");
 const submitBtn = document.querySelector("submit-btn");
 const form = document.querySelector(".newsletter-form");
 
-console.log(errorMessage);
-
 const validateEmail = () => {
   const emailRegex = /^([a-z\d\,-]+)@([a-z\d-]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/;
 
